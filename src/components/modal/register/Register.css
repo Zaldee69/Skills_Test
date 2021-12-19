@@ -1,0 +1,143 @@
+.register-modal-backdrop {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.register-container {
+  background-color: #fff;
+  width: 60%;
+  border-radius: 5px;
+  padding-bottom: 80px;
+}
+
+.register-container h1 {
+  text-align: center;
+  padding: 40px;
+  color: rgb(47, 39, 39);
+  font-weight: 600;
+}
+
+.register-content-wrapper {
+  display: flex;
+  padding: 0 100px;
+  gap: 80px;
+  flex-wrap: wrap;
+}
+
+.register-left-content {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.service-content {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+}
+
+.service-title {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.service-title p {
+  font-size: 1.15rem;
+  color: rgb(47, 39, 39);
+}
+.service-title span {
+  color: #b8b0b0;
+}
+
+.service-icon {
+  flex-basis: 40px;
+}
+
+/* right content */
+.register-right-content {
+  flex-basis: 50%;
+}
+
+.left-sosial-icons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.left-sosial-icons svg:nth-child(1) {
+  color: #fff;
+  background-color: #415f9d;
+  padding: 5px;
+  border-radius: 50%;
+}
+.left-sosial-icons svg:nth-child(2) {
+  color: #fff;
+  background-color: #5bb0ef;
+  padding: 5px;
+  border-radius: 50%;
+}
+.left-sosial-icons svg:nth-child(3) {
+  color: #fff;
+  background-color: #eb528f;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.register-right-content h2 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.15rem;
+  padding-top: 30px;
+  color: rgb(47, 39, 39);
+}
+
+.terms-container {
+  display: flex;
+  align-items: center;
+
+  padding-left: 40px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  gap: 25px;
+}
+.terms-container label {
+  color: #8e8e8e;
+}
+
+.terms-container span {
+  color: #a12cb4;
+}
+
+.register-right-content p {
+  text-align: center;
+  padding-top: 30px;
+  color: #8e8e8e;
+}
+
+.register-right-content span {
+  color: #a12cb4;
+  cursor: pointer;
+}
+
+.register-right-content button {
+  margin: 0 auto;
+  border: none;
+  background-color: #a12cb4;
+  padding: 10px 22px;
+  border-radius: 4px;
+  color: #fff;
+  display: block;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 1rem;
+}

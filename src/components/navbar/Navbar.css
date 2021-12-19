@@ -1,0 +1,50 @@
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 70px;
+  height: 70px;
+}
+
+.nav-container h1 {
+  color: #ffff;
+}
+
+.link-container {
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  color: #ffff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 10px;
+  border-radius: 4px;
+  transition: all 0.3s;
+}
+
+.link-active {
+  background-color: rgba(87, 87, 87, 0.4);
+  transition: all 0.3s;
+}
+
+.link:hover {
+  background-color: rgba(87, 87, 87, 0.4);
+  color: #ffff;
+  transition: all 0.3s;
+}

@@ -1,0 +1,31 @@
+.input-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 20px;
+  padding-top: 30px;
+}
+
+.input-container input {
+  border-bottom: 2px solid #e7e3e3;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  width: 75%;
+}
+
+::placeholder {
+  font-size: 1rem;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  justify-content: center;
+  margin-top: 30px;
+  align-items: center;
+}
